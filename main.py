@@ -4,12 +4,12 @@ from backend import get_data
 
 # add title, text input,slider,selectbox nd header
 page_bg_img = '''
-<style>
-body {
-background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fdribbble.com%2Fshots%2F3333720-Weather-App-Background-Image-Free&psig=AOvVaw1K7N3dGzjjWT2fuM6G5JNl&ust=1698699315193000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCJDksZ-SnIIDFQAAAAAdAAAAABAE");
-background-size: cover;
-}
-</style>
+    <style>
+    body {
+    background-image: url("https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722376/after_noon.png");
+    background-size: cover;
+    }
+    </style>
 '''
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
