@@ -3,11 +3,12 @@ import plotly.express as pt
 from backend import get_data
 
 # add title, text input,slider,selectbox nd header
+st.header("Welcome Nisha Manohar")
 st.header("Weather forecast for next five days")
 
-place = st.text_input("enter the city")
-days = st.slider("forecast days", min_value=1, max_value=5, help="select the days")
-option = st.selectbox("select the data to view", ("temperature", "sky"))
+place = st.text_input("Enter the city:")
+days = st.slider("Forecast days", min_value=1, max_value=5, help="select the days")
+option = st.selectbox("Select the data to view", ("temperature", "sky"))
 st.subheader(f"{option} for next {days} days in {place}")
 if place:
     filtered_data = get_data(place, days)
