@@ -3,7 +3,8 @@ import plotly.express as pt
 from backend import get_data
 
 # add title, text input,slider,selectbox nd header
-st.header("Welcome Nisha Manohar")
+
+st.header("Hello everyone")
 st.header("Weather forecast for next five days")
 
 place = st.text_input("Enter the city:")
